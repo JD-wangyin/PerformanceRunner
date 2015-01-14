@@ -1,0 +1,15 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Thread Num" field="threads">
+    <f:textbox />
+  </f:entry>
+   <f:entry title="Loops" field="loops">
+    <f:textbox />
+  </f:entry>
+   <f:entry title="Custom Params" field="parameters">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Ramp Time (s)" field="ramp_time">
+    <f:textbox />
+     </f:entry>
+  </j:jelly>

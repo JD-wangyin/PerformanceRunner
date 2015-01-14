@@ -1,0 +1,25 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Jmx File" field="jmxName">
+    <f:textbox default="$default"/>
+  </f:entry>
+  <f:entry title="Thread Num" field="threads">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Run Mode" field="runMode">
+  <f:radio name="runMode" title="Loops" value="Loops" checked="${instance.runMode=='Loops' or instance.runMode==null}"/>
+  <f:radio name="runMode" title="Duration" value="Duration" checked="${instance.runMode=='Duration'}"/>
+  </f:entry>
+  <f:entry title="Run Mode Params" field="runModeParams">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Class Name" field="className">
+    <f:textbox />
+  </f:entry>
+   <f:entry title="Custom Params" field="parameters">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Ramp Time (s)" field="ramp_time">
+    <f:textbox />
+     </f:entry>
+  </j:jelly>

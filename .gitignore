@@ -1,0 +1,12 @@
+# Eclipse project files
+.project
+.classpath
+.settings
+bin/
+
+# Build targets
+/target
+*/target
+
+#SVN
+.svn/
