@@ -1,19 +1,11 @@
-package com.wangyin.ci.performance;
-
-import hudson.Extension;
-import hudson.FilePath;
-import hudson.Launcher;
-import hudson.model.BuildListener;
-import hudson.model.AbstractBuild;
+﻿package com.wangyin.ci.performance;
 
 
-
-import org.kohsuke.stapler.DataBoundConstructor;
 /**
  * @author wyhubingyin
  * @date 2014年6月18日
  */
-public class AK47StressRunner extends PerformanceRunner  {
+/*public class AK47StressRunner extends PerformanceRunner  {
 
     @Extension
     public static class DescriptorImpl extends PerformanceRunnerDescriptor {
@@ -32,4 +24,4 @@ public class AK47StressRunner extends PerformanceRunner  {
 	@Override
 	public void execute(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener,FilePath srcJmeterPath) {
 	}
-}
+}*/
